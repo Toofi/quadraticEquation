@@ -10,7 +10,6 @@ def calculateDelta(a = float, b = float, c = float):
     global delta
     delta = (float(b) * float(b)) - (4 * float(a) * float(c)) 
     return delta
-# ax2 + bx + c = 0
 
 def deltaZero(a = float, b = float):
     result = ( - float(b) ) / (2 * float(a))
@@ -27,9 +26,6 @@ def modifySign(number = float):
     else:
         result = ""
     return result
-
-
-# delta = b² - 4ac
 
 print("L'équation est comme suit : ",number_a,"x²",modifySign(number_b),number_b,"x",modifySign(number_c),number_c, "= 0")
 
